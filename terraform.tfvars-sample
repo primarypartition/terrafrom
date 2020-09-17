@@ -1,0 +1,7 @@
+AWS_ACCESS_KEY = "xxxxxxxxxxxxxxxxxxx"
+
+AWS_SECRET_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+AWS_REGION = "us-east-2"
+
+INSTANCE_PASSWORD = "xxxxxxxxxxxxxxxxxxx"

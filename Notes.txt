@@ -1,0 +1,72 @@
+# Variables
+
+> terraform version
+> terraform -help
+
+> terraform console
+> var.myvar
+> "${var.myvar}"
+
+> var.mymap
+> var.mymap.mykey
+> var.mymap["mykey"]
+> "${var.mymap}"
+> "${var.mymap["mykey"]}"
+
+> var.mylist
+> var.mylist.0
+> var.mylist[0]
+> "${var.mylist}"
+> "${var.mylist[0]}"
+
+
+# Resource
+
+> terraform init
+> terraform apply
+> terraform destroy
+> terraform plan
+> terraform plan -out out.terraform
+> terraform apply out.terraform
+> terraform fmt
+> terraform get
+> terraform graph
+> terraform refresh
+> terraform import
+> terraform output
+> terraform remote
+> terraform show
+> terraform state
+> terraform taint
+> terraform untaint
+> terraform validate
+
+
+# Functions
+
+> element(mylist, 0)
+> element(mylist, 0, 1)
+> lookup(var.myvar1, var.mayvar2)
+> file("path_to_ssh_prt_key")
+> coalesce(self.public_ip, self.private_ip)
+
+
+# Secrets
+
+> terraform.tfvars
+
+
+# Module
+
+> terraform get
+
+
+# AWS
+
+Region: us-east-2
+
+AWS Linux: ami-0f4aeaec5b3ce9152
+
+Ubunut: ami-0010d386b82bc06f0
+
+Win Server: ami-0239d3998515e9ed1

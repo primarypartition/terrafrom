@@ -24,6 +24,7 @@
 
 > terraform init
 > terraform apply
+> terraform apply -var VAR="value"
 > terraform destroy
 > terraform plan
 > terraform plan -out out.terraform
